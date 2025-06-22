@@ -10,7 +10,7 @@
     - ollama pull codellama:7b <-- Generación de código
 
 ## Iniciar servidor Ollama desde la terminal(Recomendado)
-1. set OLLAMA_HOST=0.0.0.0:11435
+1. set OLLAMA_HOST=0.0.0.0:11435 <-- Definir el puerto del servidor Ollama
 2. set OLLAMA_NUM_GPU=0  # Desactivar GPU si hay poca VRAM
 3. ollama serve <-- Para iniciar el servidor
 
