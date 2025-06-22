@@ -6,7 +6,8 @@
 
 - 🖥️ Configuración de Ollama
 1. Descargar un modelo de ejemplo  desde el terminal como ADMIN
-    - ollama pull phi3:mini
+    - ollama pull phi3:mini <-- Desarrollo/Pruebas
+    - ollama pull codellama:7b <-- Generación de código
 
 ## Iniciar servidor Ollama desde la terminal(Recomendado)
 1. set OLLAMA_HOST=0.0.0.0:11435
