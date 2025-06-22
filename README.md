@@ -1,4 +1,4 @@
-**Documentacion  Proyecto OllamaChat**
+# **Documentacion  Proyecto OllamaChat**
 - 📝 *Descripcion:c *Esto es una chat con IA local usando Ollama como backend y Next.js como frontend. Soporta streaming de respuestas y modelos ajustables.*
 
 
@@ -8,7 +8,7 @@
 1. Descargar un modelo de ejemplo  desde el terminal como ADMIN
     - ollama pull phi3:mini
 
-# Iniciar servidor Ollama desde la terminal(Recomendado)
+## Iniciar servidor Ollama desde la terminal(Recomendado)
 1. set OLLAMA_HOST=0.0.0.0:11435
 2. set OLLAMA_NUM_GPU=0  # Desactivar GPU si hay poca VRAM
 3. ollama serve
