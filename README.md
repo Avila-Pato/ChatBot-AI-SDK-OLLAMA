@@ -8,7 +8,7 @@
 1. Descargar un modelo de ejemplo  desde el terminal como ADMIN
     - ollama pull phi3:mini
 
-# Iniciar servidor con configuración optimizada
+# Iniciar servidor Ollama con configuración optimizada
 1. set OLLAMA_HOST=0.0.0.0:11435
 2. set OLLAMA_NUM_GPU=0  # Desactivar GPU si hay poca VRAM
 3. ollama serve
@@ -28,7 +28,11 @@
   /public
     ...               
 ```
+
+- Inicia luego el proyecto con 'npm run dev'
+
+
 > [!IMPORTANT]
-> Modelo debe coincidir con el de la API  'Ollama-Model': 'phi3:mini'  en mi caso,  Puedes verlo en la API  //api/chat/route.ts
+> Modelo debe coincidir con el de la API  'Ollama-Model': 'phi3:mini'  en mi caso,  Puedes verlo en la API  /api/chat/route.ts
 > Debe ser igual al que declaras en el frontend /app/page.tsx
 
