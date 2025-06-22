@@ -11,7 +11,7 @@
 ## Iniciar servidor Ollama desde la terminal(Recomendado)
 1. set OLLAMA_HOST=0.0.0.0:11435
 2. set OLLAMA_NUM_GPU=0  # Desactivar GPU si hay poca VRAM
-3. ollama serve
+3. ollama serve <-- Para iniciar el servidor
 
 
 
@@ -23,9 +23,8 @@
   /app
     /api
       /chat
-        route.ts      
-    page.tsx           
-  /public
+        route.ts  
+   page.tsx  
     ...               
 ```
 
